@@ -1,6 +1,6 @@
 # Away_From_Sub_Function_IN_IDA
 
-Use openai to help you better translate function meanings and restore symbol tables from sub_xxxx functions
+Use openai to help you better translate function meanings and restore symbol tables from sub_xxxx functions in IDA Pro.
 
 ## Usage
 
@@ -21,7 +21,7 @@ helpp.py                binexport1164.dylib              dscu.dylib             
 _patch.dSYM                      bochs                            dscu64.dylib
 ```
 
-And open IDA Pro, choose `Edit->OpenAIVeryGOOD->Please help me Auto Recover Sub Function` to restore `sub_xxx` function's symbol and translate function meaning.
+And open IDA Pro, choose `Edit->OpenAIVeryGOOD->Please help me Auto Recover Sub Function` to automatic restore `sub_xxx` function's symbol and translate function meaning, there need to wait...(Depends on the number of your sub_xxx functions.)
 
 ![image-1](./img/1.jpg)
 
@@ -29,7 +29,7 @@ The script translates pseudocode below 70 lines, and rename `sub_xxx` function t
 
 ![image-1](./img/2.jpg)
 
-- Modify `MAX_LINE_TOKEN` in `.py` file to translate more functions, but pseudocode hava too many lines, openai may not to translate.
+- Modify `MAX_LINE_TOKEN` in `.py` file to translate more functions, but if pseudocode hava too many lines, openai may not to translate.
 
 The final restored effect can be seen in the `Functions Window` on the left.
 
