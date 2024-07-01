@@ -4,7 +4,7 @@ Use openai to help you better translate function meanings and restore symbol tab
 
 ## Usage
 
-Download the `.py` script file and push it to `plugins` directory in your IDA Pro. If your work environment is MasOS, the location will be:
+Download the `.py` script file and push it to `plugins` directory in your IDA Pro. If your work environment is MacOS, the location will be:
 
 ```
 %Your_IDA_PATH%/ida.app/Contents/MacOS/plugins/
